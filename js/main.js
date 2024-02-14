@@ -14,3 +14,8 @@ function left(){
         count = 4   
     }
 }
+
+document.addEventListener('contextmenu', function (p) {
+    p.preventDefault();
+    alert("Kod ni ko'chirish mumkinmas !!!");
+});
